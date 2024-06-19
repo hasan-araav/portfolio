@@ -9,8 +9,8 @@ interface SkillCardProps {
 
 const SkillCard: React.FC<SkillCardProps> = ({ imgSrc, altText, skillName, skillPercentage }) => {
   return (
-    <div className="flex flex-col grow  text-xl text-center  max-w-[150px]">
-      <div className=" flex flex-col justify-center items-center px-3 pt-7 pb-3 rounded-2xl border border-solid bg-stone-900 border-white border-opacity-10">
+    <div className="flex flex-col grow  text-xl text-center  max-w-[150px] hover:animation-wrapper">
+      <div className=" flex flex-col justify-center items-center px-3 pt-7 pb-3 rounded-2xl border border-solid bg-stone-900 border-white border-opacity-10 hover:animation-content">
         <img loading="lazy" src={imgSrc} alt={altText} className="self-center aspect-square w-[55px]" />
         <div className="justify-center px-10 mt-4 font-medium text-white leading-[140%]">{skillName}</div>
         <div className="justify-center px-11 max-sm:px-0 py-2.5 mt-4 font-bold rounded-2xl bg-neutral-900 leading-[120%] text-white text-opacity-30 max-md:px-5 w-full">
