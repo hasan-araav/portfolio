@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import * as React from 'react';
 
 type StatisticProps = {
@@ -40,7 +39,7 @@ const Hero: React.FC = () => {
                 >
                   <span className="text-base font-semibold leading-8 text-center capitalize text-zinc-950">Hire Me</span>
                   <div className="flex flex-col justify-center items-start pr-3 pl-2.5 my-auto">
-                    <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/05aa84fd33c613bfc269c249b383d77f251601119ea7577c712b05775bb6f989?apiKey=6fe9f02908104beead3305568f05e1a3&" className="w-1.5 aspect-[0.37]" alt="" />
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/05aa84fd33c613bfc269c249b383d77f251601119ea7577c712b05775bb6f989?apiKey=6fe9f02908104beead3305568f05e1a3&" className="w-1.5 aspect-[0.37]" alt="" />
                   </div>
                 </a>
                 <a
@@ -50,7 +49,7 @@ const Hero: React.FC = () => {
                 >
                   <span className="text-sm leading-8 text-white underline capitalize">Download Resume</span>
                   <div className="flex flex-col justify-center items-start pt-0.5 pb-px pl-2 my-auto">
-                    <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f8fd57a6d9a171ee1aa00605aabd050fde9144fe2e4a9ba3e91d9e1f0287a4b?apiKey=6fe9f02908104beead3305568f05e1a3&" className="aspect-[0.33] w-[5px]" alt="" />
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f8fd57a6d9a171ee1aa00605aabd050fde9144fe2e4a9ba3e91d9e1f0287a4b?apiKey=6fe9f02908104beead3305568f05e1a3&" className="aspect-[0.33] w-[5px]" alt="" />
                   </div>
                 </a>
               </div>
@@ -58,7 +57,7 @@ const Hero: React.FC = () => {
           </section>
           <section className="flex flex-col ml-5 w-4/12 max-md:ml-0 max-md:w-full max-sm:mt-8">
             <figure className="flex flex-col grow justify-center max-w-[1650px] max-md:max-w-full">
-              <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/898c1e8826082e70561aa53cdf083a79b6dec2c6ce63c3fd816c675b8d102c6d?apiKey=6fe9f02908104beead3305568f05e1a3&" className="w-full max-md:max-w-full" alt="Depiction of Roy C. Jones" />
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/898c1e8826082e70561aa53cdf083a79b6dec2c6ce63c3fd816c675b8d102c6d?apiKey=6fe9f02908104beead3305568f05e1a3&" className="w-full max-md:max-w-full" alt="Depiction of Roy C. Jones" />
             </figure>
           </section>
           <section className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">

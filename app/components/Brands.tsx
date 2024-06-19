@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as React from "react";
 
 interface ImageProps {
@@ -7,7 +6,7 @@ interface ImageProps {
 }
 
 const ResponsiveImage: React.FC<ImageProps> = ({ src, alt }) => (
-  <Image loading="lazy" src={src} alt={alt} className="content-center w-full aspect-[4.35] max-w-[1320px] max-md:max-w-full" />
+  <img loading="lazy" src={src} alt={alt} className="content-center w-full aspect-[4.35] max-w-[1320px] max-md:max-w-full" />
 );
 
 const Brands: React.FC = () => {

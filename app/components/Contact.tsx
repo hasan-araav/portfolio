@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as React from "react";
 
 interface ExperienceItemProps {
@@ -10,7 +9,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ src, description }) => 
   <div className="flex gap-0 mt-5">
     <div className="flex flex-col justify-center pr-5">
       <div className="flex flex-col justify-center items-start bg-lime-400 rounded-2xl">
-        <Image loading="lazy" src={src} alt="" className="aspect-square w-[30px]" />
+        <img loading="lazy" src={src} alt="" className="aspect-square w-[30px]" />
       </div>
     </div>
     <div className="flex-1 text-xl leading-8 text-white text-opacity-70">{description}</div>
@@ -35,7 +34,7 @@ const ContactForm: React.FC = () => (
                 className="justify-center my-auto text-base text-white text-opacity-20 bg-transparent border-none outline-none w-full"
               />
               <div className="flex justify-center items-center pt-2 pb-2">
-                <Image loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e31708ec693b738cd6c1924dd8b378e053f225e93726002e6c8bb344f25cb834?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-3.5 aspect-[0.88]" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e31708ec693b738cd6c1924dd8b378e053f225e93726002e6c8bb344f25cb834?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-3.5 aspect-[0.88]" />
               </div>
             </div>
           </div>
@@ -54,7 +53,7 @@ const ContactForm: React.FC = () => (
                 className="justify-center my-auto text-base whitespace-nowrap text-white text-opacity-20 bg-transparent border-none outline-none w-full"
               />
               <div className="flex justify-center items-center pt-2 pb-2">
-                <Image loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4a93a730f2e31ea3642c1ec9017cc1ced3e506f556cf9ebed9e6f4ef7595cfaa?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-4 aspect-square" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4a93a730f2e31ea3642c1ec9017cc1ced3e506f556cf9ebed9e6f4ef7595cfaa?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-4 aspect-square" />
               </div>
             </div>
           </div>
@@ -77,7 +76,7 @@ const ContactForm: React.FC = () => (
                 className="justify-center my-auto text-base text-white text-opacity-20 bg-transparent border-none outline-none w-full"
               />
               <div className="flex justify-center items-center pt-2 pb-2">
-                <Image loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c7c64aba0cf5b37fb0abbd3ff43e4a9fc35613213c22bc2beaf45cae21a7b17?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-4 aspect-square" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c7c64aba0cf5b37fb0abbd3ff43e4a9fc35613213c22bc2beaf45cae21a7b17?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-4 aspect-square" />
               </div>
             </div>
           </div>
@@ -96,7 +95,7 @@ const ContactForm: React.FC = () => (
                 className="justify-center my-auto text-base whitespace-nowrap text-white text-opacity-20 bg-transparent border-none outline-none w-full"
               />
               <div className="flex justify-center items-center pt-2 pb-2">
-                <Image loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d3d74f5092da8a4bb91eb58a8d936bac411166318a8e7049ef0670403522d994?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-3.5 aspect-[0.88]" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d3d74f5092da8a4bb91eb58a8d936bac411166318a8e7049ef0670403522d994?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-3.5 aspect-[0.88]" />
               </div>
             </div>
           </div>
@@ -118,7 +117,7 @@ const ContactForm: React.FC = () => (
       <button type="submit" className="flex gap-0 justify-between px-9 py-2.5 max-w-full bg-lime-400 rounded-2xl w-[225px] max-md:px-5">
         <span className="text-base font-semibold leading-8 text-center capitalize text-zinc-950">Send Us Message</span>
         <div className="flex flex-col justify-center items-start px-2.5 my-auto">
-          <Image loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/620708c136a4e801660a060ccb7c651877a2d6ac98e6856d247ef050d0b06867?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-1.5 aspect-[0.37]" />
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/620708c136a4e801660a060ccb7c651877a2d6ac98e6856d247ef050d0b06867?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-1.5 aspect-[0.37]" />
         </div>
       </button>
     </div>

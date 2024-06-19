@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as React from "react";
 
 type ContactInfoProps = {
@@ -20,7 +19,7 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ iconSrc, iconAlt, label, info
       <div className="flex gap-0">
         <div className="flex flex-col justify-center pr-4 my-auto">
           <div className="flex flex-col justify-center items-start p-3 bg-lime-400 rounded-3xl max-md:pr-5">
-            <Image loading="lazy" src={iconSrc} alt={iconAlt} className="w-4 aspect-square" />
+            <img loading="lazy" src={iconSrc} alt={iconAlt} className="w-4 aspect-square" />
           </div>
         </div>
         <div className="flex flex-col pt-0.5 pb-px leading-[150%]">
@@ -36,7 +35,7 @@ const Service: React.FC<ServiceProps> = ({ iconSrc, iconAlt, serviceTitle }) => 
   return (
     <div className="flex gap-0">
       <div className="flex flex-col justify-center items-start pt-0.5 pr-3 pb-px my-auto">
-        <Image loading="lazy" src={iconSrc} alt={iconAlt} className="w-5 aspect-square" />
+        <img loading="lazy" src={iconSrc} alt={iconAlt} className="w-5 aspect-square" />
       </div>
       <div className="text-xl font-medium leading-8 text-white">{serviceTitle}</div>
     </div>
@@ -72,7 +71,7 @@ const About: React.FC = () => {
             </article>
             <aside className="flex flex-col ml-5 w-[42%] max-md:ml-0 max-md:w-full max-sm:mt-8">
               <div className="flex flex-col grow justify-center px-12 max-w-[1390px] max-md:px-5 max-md:max-w-full">
-                <Image loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/12875ba3346eaafc91993fc04aa89c5357ab48b226f4db8c799c25d7c56a141f?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="Decorative image" className="w-full aspect-[0.91] max-w-[479px] max-md:max-w-full" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/12875ba3346eaafc91993fc04aa89c5357ab48b226f4db8c799c25d7c56a141f?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="Decorative image" className="w-full aspect-[0.91] max-w-[479px] max-md:max-w-full" />
               </div>
             </aside>
           </div>

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import * as React from 'react';
 
 interface Job {
@@ -42,7 +41,7 @@ const Experience: React.FC = () => {
           <aside className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow items-center max-sm:mb-20 self-stretch px-4 max-md:pr-5">
               <figure className="flex flex-col items-center px-16 pt-16 pb-16 mt-1.5 border border-solid aspect-square bg-stone-900 border-white border-opacity-10 rounded-[135px] max-md:px-5">
-                <Image
+                <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/e15444c740a748c64662c2f779043751dd3aea429a4779868dcc73c02e473335?apiKey=6fe9f02908104beead3305568f05e1a3&"
                   alt="Profile"
