@@ -6,7 +6,7 @@ type StatisticProps = {
 };
 
 const StatisticCard: React.FC<StatisticProps> = ({ value, description }) => (
-  <div className="flex max-sm:text-center flex-col pb-7 mt-6 border-b border-solid border-white border-opacity-10">
+  <div className="flex max-sm:text-center flex-col pb-7 mt-6 max-sm:mt-0 max-sm:pb-0 border-b max-sm:border-b-0 max-sm:border-r border-solid border-white border-opacity-10">
     <div className="text-4xl max-sm:text-2xl font-medium leading-10 text-lime-400">{value}</div>
     <div className="mt-1.5 text-base leading-8 max-sm:leading-6 text-white text-opacity-70">{description}</div>
   </div>
