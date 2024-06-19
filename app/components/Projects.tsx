@@ -1,3 +1,4 @@
+import Image from "next/image";
 import * as React from "react";
 
 interface ProjectProps {
@@ -15,7 +16,7 @@ const Project: React.FC<ProjectProps> = ({
 }) => (
   <article className="flex flex-col md:flex-row gap-5 md:gap-0">
     <div className="md:w-[55%] w-full">
-      <img
+      <Image
         loading="lazy"
         src={imageSrc}
         alt=""
@@ -98,7 +99,7 @@ const Projects: React.FC = () => {
           <span className="text-base font-semibold leading-8 text-center capitalize text-zinc-950">
             View More Projects
           </span>
-          <img
+          <Image
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4f515f3830eb518481aa38c0d8f6bab908b08203f91efcedd4025762f3d13b0?apiKey=6fe9f02908104beead3305568f05e1a3&"
             alt="Arrow icon"
