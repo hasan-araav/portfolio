@@ -13,7 +13,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ imgSrc, altText, skillName, skill
       <div className=" flex flex-col justify-center items-center px-3 pt-7 pb-3 rounded-2xl border border-solid bg-stone-900 border-white border-opacity-10">
         <img loading="lazy" src={imgSrc} alt={altText} className="self-center aspect-square w-[55px]" />
         <div className="justify-center px-10 mt-4 font-medium text-white leading-[140%]">{skillName}</div>
-        <div className="justify-center px-11 py-2.5 mt-4 font-bold rounded-2xl bg-neutral-900 leading-[120%] text-white text-opacity-30 max-md:px-5">
+        <div className="justify-center px-11 max-sm:px-0 py-2.5 mt-4 font-bold rounded-2xl bg-neutral-900 leading-[120%] text-white text-opacity-30 max-md:px-5 w-full">
           {skillPercentage}
         </div>
       </div>
@@ -35,19 +35,19 @@ const skillsData = [
 const Skills: React.FC = () => {
   return (
     <section className="flex justify-center items-center self-stretch px-16 bg-neutral-900 max-md:px-5">
-      <div className="flex justify-center items-center py-20 pr-16 pl-6 w-full bg-zinc-950 max-w-[1620px] max-md:px-5 max-md:max-w-full">
+      <div className="flex justify-center items-center py-20 pr-16 pl-16 w-full bg-zinc-950 max-w-[1620px] max-md:px-5 max-md:max-w-full">
         <div className="justify-center mt-11 mb-5 w-full max-w-[1320px] max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <aside className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow items-start pr-12 pb-20 pl-4 max-w-[1390px] max-md:pr-5 max-md:max-w-full">
+              <div className="flex flex-col grow justify-center items-start pr-12 max-sm:pb-20 pl-4 max-w-[1390px] max-md:pr-5 max-md:max-w-full">
                 <p className="self-stretch text-base font-medium leading-8 text-white text-opacity-70 max-md:max-w-full">My Skills</p>
                 <h2 className="mt-4 text-5xl font-medium text-white leading-[54px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
-                  Let’s Explore Popular <br /> Skills & Experience
+                  Things <br />I've Mastered
                 </h2>
                 <p className="mt-6 text-base leading-8 text-white text-opacity-70 max-md:max-w-full">
-                  Sed ut perspiciatis unde omnis iste natus to voluptatem <br /> accusantium doloremque laudantium, totam rem aperiamc <br /> eaque ipsa quae ab illo inventore veritatis
+                  Over the years I have accumulated skills in various stacks.
                 </p>
-                <div className="flex gap-0 justify-center px-9 py-2.5 mt-10 max-w-full bg-lime-400 rounded-2xl w-[174px] max-md:px-5">
+                <div className="flex gap-0 justify-center px-9 py-2.5 mt-10 max-w-full bg-lime-400 rounded-2xl max-md:px-5">
                   <button className="text-base font-semibold leading-8 text-center capitalize text-zinc-950" tabIndex={0}>Learn More</button>
                   <div className="flex flex-col justify-center items-start px-2.5 my-auto">
                     <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa7fbba2a00281023bcdcb241873ea716a8c1a0b14d4125b7cc3012bc558ef68?apiKey=6fe9f02908104beead3305568f05e1a3&" alt="" className="w-1.5 aspect-[0.37]" />
